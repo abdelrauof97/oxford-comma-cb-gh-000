@@ -8,7 +8,7 @@ def oxford_comma(array)
   else array.length > 3
     mac = array.last
     array.pop
-    array.join(", ") << " and #{"#{mac}"}"
+    array.join(", ") << ", and #{"#{mac}"}"
   end
 end
 puts oxford_comma([1,2,3,4])
