@@ -10,4 +10,4 @@ def oxford_comma(array)
     new.join(",") << " and #{array.last}"
   end
 end
-puts oxford_comma([1,3,4])
+puts oxford_comma([1,2,3,4])
