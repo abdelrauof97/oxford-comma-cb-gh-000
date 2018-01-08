@@ -10,4 +10,4 @@ def oxford_comma(array)
     array.join(',') 
   end
 end
-puts oxford_comma([1,2,3])
+puts oxford_comma([1,2,3,4])
